@@ -6,6 +6,7 @@ import store from './store';
 
 // import components
 import BaseImage from './components/base/Image.vue';
+import BaseButton from './components/base/Button.vue';
 
 import '@/assets/scss/main.scss';
 
@@ -13,4 +14,5 @@ createApp(App)
   .use(store)
   .use(router)
   .component('BaseImage', BaseImage)
+  .component('BaseButton', BaseButton)
   .mount('#app');

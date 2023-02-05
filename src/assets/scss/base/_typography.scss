@@ -29,7 +29,9 @@ body {
   font-family: $font-lato;
   font-weight: 400;
   color: $color-dark;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 h1,
@@ -45,7 +47,8 @@ h6 {
   font-weight: 700;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 4.8rem;
 
   @media all and (min-widht: $tablet) {
@@ -53,7 +56,8 @@ h1 {
   }
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 3.4rem;
 
   @media all and (min-widht: $tablet) {
@@ -61,10 +65,12 @@ h2 {
   }
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 2.4rem;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 2rem;
 }

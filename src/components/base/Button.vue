@@ -1,0 +1,40 @@
+<template>
+  <a class="action" :href="href" :target="target">
+    <slot />
+  </a>
+</template>
+
+<script>
+export default {
+  name: 'BaseButton',
+  props: {
+    href: {
+      type: String,
+      default: '/',
+    },
+    target: {
+      type: String,
+      default: '_self',
+    },
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+  @import '~@/assets/scss/abstract/_variables.scss';
+
+  .action {
+    display: block;
+    background-color: $color-green;
+    color: $color-white;
+    padding: 5px 20px;
+    font-size: 2.2rem;
+    text-decoration: none;
+    transition: $base-transition;
+
+    &:hover {
+      background-color: lighten($color-green, 10%);
+    }
+  }
+</style>
