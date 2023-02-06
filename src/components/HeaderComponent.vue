@@ -27,6 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
+  @import '~@/assets/scss/abstract/_mixins.scss';
 
   h1,h2,h3,h4 {
     color: $color-white;
@@ -40,10 +41,9 @@ export default {
   }
 
   .component-header {
+    @include fuzzy-background;
     width: 100%;
     height: 100vh;
-    background-image: url('~@/assets/images/textures/noise.png');
-    background-size: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;

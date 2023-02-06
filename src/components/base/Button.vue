@@ -23,8 +23,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
+  @import '~@/assets/scss/abstract/_mixins.scss';
 
   .action {
+    @include fuzzy-background;
     display: block;
     background-color: $color-green;
     color: $color-white;
