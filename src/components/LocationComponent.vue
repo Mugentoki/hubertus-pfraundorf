@@ -9,13 +9,13 @@
     </div>
     <div class="open-map">
       <iframe
-        title="SV Hubertus Pfraundorf e.V"
+        title="SG Hubertus Pfraundorf e.V"
         height="450"
         frameborder="0"
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=12.115446925163269%2C47.802911663819685%2C12.118987441062929%2C47.80450785161765&amp;layer=mapnik&amp;marker=47.80370976384961%2C12.117217183113098"
+        data-src="https://www.openstreetmap.org/export/embed.html?bbox=12.115446925163269%2C47.802911663819685%2C12.118987441062929%2C47.80450785161765&amp;layer=mapnik&amp;marker=47.80370976384961%2C12.117217183113098"
       >
       </iframe>
     </div>
