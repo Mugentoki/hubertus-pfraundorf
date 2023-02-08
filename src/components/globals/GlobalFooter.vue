@@ -95,12 +95,34 @@ export default {
     .footer-pre {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
-      padding: $padding-topbottom $padding-sides;
+      align-items: center;
+      flex-direction: column;
+      padding: $padding-topbottom $padding-sides 0;
+      text-align: center;
+
+      @media screen and (min-width: $tablet) {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
+        padding-bottom: $padding-topbottom;
+      }
+
+      > div {
+        margin-bottom: 50px;
+
+        @media screen and (min-width: $tablet) {
+          margin: 0;
+        }
+      }
     }
 
     .footer-logo {
       align-self: center;
+      order: 10;
+
+      @media screen and (min-width: $tablet) {
+        order: unset;
+      }
 
       img {
         max-width: 110px;

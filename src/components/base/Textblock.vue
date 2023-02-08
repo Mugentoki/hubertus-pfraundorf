@@ -1,0 +1,22 @@
+<template>
+  <div class="base-textblock">
+    <slot />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'BaseTextblock',
+  props: {
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+  @import '~@/assets/scss/abstract/_variables.scss';
+
+  .base-textblock {
+    padding: $padding-topbottom 0;
+  }
+</style>

@@ -53,10 +53,6 @@ export default {
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
 
-  h2 {
-    text-align: center;
-  }
-
   .component-events {
     padding: $padding-topbottom $padding-sides;
   }
