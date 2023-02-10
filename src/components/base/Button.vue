@@ -36,7 +36,7 @@ export default {
     transition: $base-transition;
 
     &:hover {
-      background-color: lighten($color-green, 10%);
+      background-color: $color-green-light;
     }
   }
 </style>

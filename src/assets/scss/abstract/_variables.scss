@@ -4,6 +4,7 @@ $font-lato: Lato, sans-serif;
 
 // colors
 $color-green: #224E00;
+$color-green-light: lighten($color-green, 5%);
 $color-dark: #000000;
 $color-white: #ffffff;
 
