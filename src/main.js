@@ -11,6 +11,7 @@ import GlobalFooter from './components/globals/GlobalFooter.vue';
 import BaseImage from './components/base/Image.vue';
 import BaseButton from './components/base/Button.vue';
 import BaseTextblock from './components/base/Textblock.vue';
+import ImageWithText from './components/base/ImageWithText.vue';
 
 import '@/assets/scss/main.scss';
 
@@ -21,4 +22,5 @@ createApp(App)
   .component('BaseImage', BaseImage)
   .component('BaseButton', BaseButton)
   .component('BaseTextblock', BaseTextblock)
+  .component('ImageWithText', ImageWithText)
   .mount('#app');

@@ -17,6 +17,6 @@ export default {
   @import '~@/assets/scss/abstract/_variables.scss';
 
   .base-textblock {
-    padding: $padding-topbottom 0;
+    padding: 25px 0;
   }
 </style>

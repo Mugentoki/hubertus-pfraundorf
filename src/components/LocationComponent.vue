@@ -8,6 +8,7 @@
         Parkmöglichkeiten gibt es direkt vor dem Gebäude oder am Kirchenparkplatz</p>
     </div>
     <div class="open-map">
+      <!-- Todo: add openstreetmap to cookie banner -->
       <iframe
         title="SG Hubertus Pfraundorf e.V"
         height="450"
@@ -15,7 +16,7 @@
         scrolling="no"
         marginheight="0"
         marginwidth="0"
-        data-src="https://www.openstreetmap.org/export/embed.html?bbox=12.115446925163269%2C47.802911663819685%2C12.118987441062929%2C47.80450785161765&amp;layer=mapnik&amp;marker=47.80370976384961%2C12.117217183113098"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=12.115444242954254%2C47.802911663819685%2C12.118984758853912%2C47.80450785161765&amp;layer=mapnik&amp;marker=47.80370976384961%2C12.117214500904083"
       >
       </iframe>
     </div>
@@ -37,6 +38,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
+
+  .component-location {
+    margin-top: 75px;
+    padding: 0 $padding-sides;
+  }
 
   .standort-address {
     h3 {

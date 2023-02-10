@@ -3,7 +3,7 @@
     <HeaderComponent />
     <div class="page-content">
       <EventComponent />
-      <HubertusComponent />
+      <DorfkoenigComponent />
       <LocationComponent />
     </div>
   </div>
@@ -14,6 +14,7 @@
 import HeaderComponent from '@/components/HeaderComponent.vue';
 import EventComponent from '@/components/EventComponent.vue';
 import LocationComponent from '@/components/LocationComponent.vue';
+import DorfkoenigComponent from '@/components/DorfkoenigComponent.vue';
 
 export default {
   name: 'HomeView',
@@ -21,6 +22,7 @@ export default {
     HeaderComponent,
     EventComponent,
     LocationComponent,
+    DorfkoenigComponent,
   },
 };
 </script>
