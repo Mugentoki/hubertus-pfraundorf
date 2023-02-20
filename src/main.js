@@ -5,6 +5,7 @@ import router from './router';
 import store from './store';
 
 // global components
+import GlobalMenu from './components/globals/GlobalMenu.vue';
 import GlobalFooter from './components/globals/GlobalFooter.vue';
 
 // import components
@@ -18,6 +19,7 @@ import '@/assets/scss/main.scss';
 createApp(App)
   .use(store)
   .use(router)
+  .component('GlobalMenu', GlobalMenu)
   .component('GlobalFooter', GlobalFooter)
   .component('BaseImage', BaseImage)
   .component('BaseButton', BaseButton)

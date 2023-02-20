@@ -1,5 +1,5 @@
 <template>
-  <div class="component-dorfkoenig">
+  <div class="component-dorfkoenig" :id="anchor">
     <h2>Raublinger Dorfkönigschießen</h2>
     <BaseTextblock>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -48,6 +48,12 @@ export default {
   data() {
     return {
     };
+  },
+  props: {
+    anchor: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>

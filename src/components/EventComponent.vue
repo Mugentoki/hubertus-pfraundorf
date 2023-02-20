@@ -1,5 +1,5 @@
 <template>
-  <div class="component-events">
+  <div class="component-events" :id="anchor">
     <h2>Anstehende Termine</h2>
     <div class="event-cards">
       <ContentCard v-for="(event, index) in events" :key="index">
@@ -45,6 +45,12 @@ export default {
         },
       ],
     };
+  },
+  props: {
+    anchor: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>

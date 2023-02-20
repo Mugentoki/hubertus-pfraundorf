@@ -70,6 +70,10 @@ export default {
     background-color: $color-green;
     color: $color-white;
 
+    @media all and (max-width: $mobile) {
+      padding-bottom: 70px;
+    }
+
     > div {
       max-width: $max-page-width;
       margin: 0 auto;

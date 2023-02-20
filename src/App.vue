@@ -1,8 +1,6 @@
 <template>
   <div class="main-container">
-    <!--<nav>
-      <router-link to="/">Home</router-link> |
-    </nav>-->
+    <GlobalMenu/>
     <router-view/>
     <GlobalFooter/>
   </div>

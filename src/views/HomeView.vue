@@ -2,10 +2,10 @@
   <div class="home">
     <HeaderComponent />
     <div class="page-content">
-      <EventComponent />
-      <HubertusComponent />
-      <DorfkoenigComponent />
-      <LocationComponent />
+      <EventComponent anchor="termine"/>
+      <HubertusComponent anchor="verein"/>
+      <DorfkoenigComponent anchor="dorfkoenig"/>
+      <LocationComponent anchor="standort"/>
     </div>
   </div>
 </template>

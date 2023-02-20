@@ -1,5 +1,5 @@
 <template>
-  <div class="component-hubertus">
+  <div class="component-hubertus" :id="anchor">
     <h2>Schützengilde "Hubertus" Pfraundorf</h2>
     <BaseTextblock>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -69,6 +69,12 @@ export default {
     return {
       activeTileIndex: 0,
     };
+  },
+  props: {
+    anchor: {
+      type: String,
+      default: '',
+    },
   },
   methods: {
     checkIndexActive(index) {

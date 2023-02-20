@@ -1,5 +1,5 @@
 <template>
-  <div class="component-location">
+  <div class="component-location" :id="anchor">
     <h2>Standort</h2>
     <div class="standort-address">
       <h3>Adresse</h3>
@@ -31,6 +31,12 @@ export default {
   data() {
     return {
     };
+  },
+  props: {
+    anchor: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>
