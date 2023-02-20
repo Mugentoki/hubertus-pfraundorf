@@ -7,13 +7,17 @@
           <span>Startseite</span>
         </a>
       </div>
-      <nav class="main-navigation">
+      <nav class="main-navigation"
+          :class="isMenuOpen ? 'open' : ''">
         <a href="#termine">Aktuelles</a>
         <a href="#verein">Verein</a>
         <a href="#dorfkoenig">Dorfkönig</a>
         <a href="#standort">Standort</a>
       </nav>
-      <div class="burger-menu">
+      <div class="burger-menu"
+          :class="isMenuOpen ? 'open' : ''"
+          @click="toggleMenu"
+          @keypress="menuKey">
         <div class="icon-left"></div>
         <div class="icon-right"></div>
       </div>
@@ -28,9 +32,18 @@ export default {
   },
   data() {
     return {
+      isMenuOpen: false,
     };
   },
   methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
+    menuKey(event) {
+      if (event.keyCode === 13) {
+        this.toggleMenu();
+      }
+    },
   },
 };
 </script>
@@ -96,6 +109,27 @@ export default {
       align-items: center;
       flex-grow: 1;
       margin-left: 50px;
+      transition: all .3s ease-in-out;
+
+      @media all and (max-width: $mobile) {
+        @include fuzzy-background;
+        background-color: $color-green;
+        color: $color-white;
+        height: 100vh;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        flex-direction: column;
+        width: 100%;
+        padding: 70px 25px;
+        margin: 0;
+      }
+
+      &.open {
+        @media all and (max-width: $mobile) {
+          right: 0;
+        }
+      }
 
       a {
         text-decoration: none;
