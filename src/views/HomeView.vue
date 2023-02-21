@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HeaderComponent />
+    <HeaderComponent :showScrollDown="true"/>
     <div class="page-content">
       <EventComponent anchor="termine"/>
       <HubertusComponent anchor="verein"/>
