@@ -8,7 +8,9 @@
         </a>
       </div>
       <nav class="main-navigation"
-          :class="isMenuOpen ? 'open' : ''">
+          :class="isMenuOpen ? 'open' : ''"
+          @click="toggleMenu"
+          @keypress="menuKey">
         <a href="#termine">Aktuelles</a>
         <a href="#verein">Verein</a>
         <a href="#dorfkoenig">Dorfkönig</a>
