@@ -64,6 +64,10 @@ export default {
         margin-top: -250px;
       }
     }
+
+    @media all and (min-width: $tablet) {
+      height: 100vh;
+    }
   }
 
   .scroll-down {
