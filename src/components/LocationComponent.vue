@@ -10,8 +10,8 @@
     <div class="open-map">
       <!-- Todo: add openstreetmap to cookie banner -->
       <iframe
+        v-if="acceptOpenStreetMap"
         title="SG Hubertus Pfraundorf e.V"
-        height="450"
         frameborder="0"
         scrolling="no"
         marginheight="0"
@@ -19,6 +19,18 @@
         src="https://www.openstreetmap.org/export/embed.html?bbox=12.115444242954254%2C47.802911663819685%2C12.118984758853912%2C47.80450785161765&amp;layer=mapnik&amp;marker=47.80370976384961%2C12.117214500904083"
       >
       </iframe>
+      <div v-else class="map-fallback">
+        <div class="fallback-note">
+          <p>Aus Datenschutzgründen siehst Du nur ein Vorschaubild der Karte.
+            Bitte drücke auf "Karte Anzeigen" wenn Du damit einverstanden bist,
+            dass die Karte von openstreetmap.org
+            geladen wird und Du deren
+            <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">Datenschutzerklärung</a>
+            (englisch) akzeptierst.
+          </p>
+          <button @click="acceptOpenStreetMap = !acceptOpenStreetMap">Karte Anzeigen</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -30,6 +42,7 @@ export default {
   },
   data() {
     return {
+      acceptOpenStreetMap: false,
     };
   },
   props: {
@@ -44,6 +57,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
+  @import '~@/assets/scss/abstract/_mixins.scss';
 
   .component-location {
     margin-top: 75px;
@@ -63,9 +77,51 @@ export default {
   .open-map {
     margin: 35px 0 75px;
 
-    iframe {
+    iframe,
+    .map-fallback {
       border: 1px solid rgba(0,0,0,.2);
       width: 100%;
+      height: 450px;
+    }
+
+    .map-fallback {
+      background-image: url('~@/assets/images/map-fallback.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: brightness(80%);
+      position: relative;
+
+      .fallback-note {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: $color-white;
+        padding: 10px;
+        font-size: 1.2rem;
+
+        @media all and (min-width: $tablet) {
+          width: 350px;
+        }
+
+        button {
+          @include fuzzy-background;
+          display: block;
+          background-color: $color-green;
+          color: $color-white;
+          padding: 5px 20px;
+          font-size: 1.6rem;
+          text-decoration: none;
+          transition: $base-transition;
+          border: none;
+          margin: 15px auto;
+
+          &:hover {
+            background-color: $color-green-light;
+          }
+        }
+      }
     }
   }
 </style>
