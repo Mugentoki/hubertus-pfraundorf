@@ -11,10 +11,10 @@
           :class="isMenuOpen ? 'open' : ''"
           @click="toggleMenu"
           @keypress="menuKey">
-        <a href="#termine">Aktuelles</a>
-        <a href="#verein">Verein</a>
-        <a href="#dorfkoenig">Dorfkönig</a>
-        <a href="#standort">Standort</a>
+        <a href="/#termine">Aktuelles</a>
+        <a href="/#verein">Verein</a>
+        <a href="/#dorfkoenig">Dorfkönig</a>
+        <a href="/#standort">Standort</a>
       </nav>
       <div class="burger-menu"
           :class="isMenuOpen ? 'open' : ''"
