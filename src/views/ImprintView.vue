@@ -73,7 +73,7 @@
         </p>
         <br>
         <p>
-          Quelle: <a href="https://www.e-recht24.de/">eRecht24</a>
+          Quelle: <a href="https://www.e-recht24.de/">e-recht24.de</a>
         </p>
       </BaseTextblock>
     </div>
