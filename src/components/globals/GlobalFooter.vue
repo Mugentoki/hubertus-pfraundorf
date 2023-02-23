@@ -19,16 +19,19 @@
         <span>Eschenweg 1a</span>
         <span>83064 Raubling</span>
         <br />
-        <span>Telefon: 08035 6131</span>
-        <span>Email: vorstand@hubertus-pfraundorf.de</span>
+        <span>Telefon: <a href="tel:08035 6131">08035 6131</a></span>
+        <span>Email: <a href="mailto:vorstand@hubertus-pfraundorf.de">
+          vorstand@hubertus-pfraundorf.de</a></span>
       </div>
       <div class="footer-nav-2">
         <p class="footer-title">Weiterführend</p>
         <nav class="footer-nav">
-          <a href="#">Schützengau Rosenheim</a>
-          <a href="#">Schützenbezirk Oberbayern</a>
-          <a href="#">Bayerische Sportschützenbund</a>
-          <a href="#">Deutscher Schützenbund</a>
+          <a v-for="(link, index) in externalLinks"
+            :key="index"
+            :href="link.href"
+            target="_blank">
+            {{ link.title }}
+          </a>
         </nav>
       </div>
     </div>
@@ -50,6 +53,24 @@ export default {
   },
   data() {
     return {
+      externalLinks: [
+        {
+          title: 'Schützengau Rosenheim',
+          href: 'https://gau-rosenheim.de/',
+        },
+        {
+          title: 'Schützenbezirk Oberbayern',
+          href: 'https://www.bezobb.de/',
+        },
+        {
+          title: 'Bayerische Sportschützenbund',
+          href: 'https://www.bssb.de/',
+        },
+        {
+          title: 'Deutscher Schützenbund',
+          href: 'https://www.dsb.de/',
+        },
+      ],
     };
   },
   methods: {
