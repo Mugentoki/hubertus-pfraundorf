@@ -1,22 +1,26 @@
 <template>
   <div class="privacy">
-    <HeaderComponent />
     <div class="page-content">
-      <EventComponent />
+      <h1>Vorstandschaft</h1>
+      <ChairmanComponent />
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HeaderComponent from '@/components/HeaderComponent.vue';
-import EventComponent from '@/components/EventComponent.vue';
+import ChairmanComponent from '@/components/ChairmanGrid.vue';
 
 export default {
   name: 'ChairmanView',
   components: {
-    HeaderComponent,
-    EventComponent,
+    ChairmanComponent,
   },
 };
 </script>
+
+<style scoped>
+  .page-content {
+    padding: 100px 0;
+  }
+</style>
