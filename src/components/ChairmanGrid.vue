@@ -25,62 +25,62 @@ export default {
       chairmans: [
         {
           name: 'Thomas Berger',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/thomas-berger.jpg',
           positions: ['1. Schützenmeister'],
         },
         {
           name: 'Alexander Berger',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/alexander-berger.jpg',
           positions: ['2. Schützenmeister', 'Sportleiter'],
         },
         {
           name: 'Rebecca Lehnig',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/rebecca-lehnig.jpg',
           positions: ['1. Kassierin'],
         },
         {
-          name: 'Michael Harbuz',
-          image: 'chairman/map-fallback.png',
-          positions: ['2. Kassier'],
-        },
-        {
           name: 'Angelika Berger',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/angelika-berger.jpg',
           positions: ['Schriftführerin'],
         },
         {
+          name: 'Michael Harbuz',
+          image: 'chairman/michael-harbuz.jpg',
+          positions: ['2. Kassier'],
+        },
+        {
           name: 'Georg Neuner',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/georg-neuner.jpg',
           positions: ['Fähnrich'],
         },
         {
           name: 'Sebastian Festner',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/sebastian-festner.jpg',
           positions: ['Fahnenbegleiter', 'Jugendwart'],
         },
         {
           name: 'Andreas Berger',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/andreas-berger.jpg',
           positions: ['Fahnenbegleiter'],
         },
         {
           name: 'Sebastian Estermann sen.',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/sebastian-estermann-sen.jpg',
           positions: ['Zeugwart'],
         },
         {
           name: 'Alber Berger jun.',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/albert-berger-jun.jpg',
           positions: ['Beisitzer'],
         },
         {
           name: 'Sebastian Estermann jun.',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/chairman-fallback.png',
           positions: ['Beisitzer'],
         },
         {
           name: 'Sabine Weingartner',
-          image: 'chairman/map-fallback.png',
+          image: 'chairman/chairman-fallback.png',
           positions: ['Beisitzerin'],
         },
       ],
