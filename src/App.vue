@@ -13,4 +13,11 @@
     max-width: $max-page-width;
     margin: 0 auto;
   }
+
+  .main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 </style>

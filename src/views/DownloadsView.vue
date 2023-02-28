@@ -1,22 +1,26 @@
 <template>
   <div class="privacy">
-    <HeaderComponent />
     <div class="page-content">
-      <EventComponent />
+      <h1>Downloads</h1>
+      <DownloadComponent />
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HeaderComponent from '@/components/HeaderComponent.vue';
-import EventComponent from '@/components/EventComponent.vue';
+import DownloadComponent from '@/components/DownloadGrid.vue';
 
 export default {
   name: 'DownloadsView',
   components: {
-    HeaderComponent,
-    EventComponent,
+    DownloadComponent,
   },
 };
 </script>
+
+<style scoped>
+  .page-content {
+    padding: 100px 0;
+  }
+</style>
