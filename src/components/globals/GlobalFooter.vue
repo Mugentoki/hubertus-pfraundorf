@@ -7,7 +7,7 @@
       <div class="footer-nav-1">
         <p class="footer-title">Hubertus Pfraundorf</p>
         <nav class="footer-nav">
-          <router-link to="/dorfkoenigschießen">Dorfkönigschießen</router-link>
+          <a href="/#dorfkoenig">Dorfkönigschießen</a>
           <router-link to="/vorstandschaft">Vorstandschaft</router-link>
           <router-link to="/downloads">Downloads</router-link>
         </nav>
