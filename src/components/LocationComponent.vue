@@ -85,7 +85,7 @@ export default {
     }
 
     .map-fallback {
-      background-image: url('~@/assets/images/map-fallback.png');
+      background-image: url('~@/assets/images/map-fallback.webp');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

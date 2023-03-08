@@ -11,7 +11,7 @@
       dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
       ipsum dolor sit amet.
     </BaseTextblock>
-    <ImageWithText src="logo-large.png"
+    <ImageWithText src="logo-large.webp"
       alt="Dorfkönig 1" type="left" height="200" width="200">
       <h3>Überschrift</h3>
       <BaseTextblock>
@@ -25,7 +25,7 @@
       ipsum dolor sit amet.
     </BaseTextblock>
     </ImageWithText>
-    <ImageWithText src="logo-large.png"
+    <ImageWithText src="logo-large.webp"
       alt="Dorfkönig 1" type="right" height="200" width="200">
       <h3>Überschrift</h3>
       <BaseTextblock>

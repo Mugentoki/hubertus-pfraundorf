@@ -27,5 +27,9 @@ module.exports = {
       new SitemapPlugin({ base: 'https://www.hubertus-pfraundorf.de', paths }),
     ],
   },
-  // Other exports here
+  pwa: {
+    workboxOptions: {
+      exclude: ['.htaccess'],
+    },
+  },
 };
