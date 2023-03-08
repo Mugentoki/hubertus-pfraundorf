@@ -22,6 +22,7 @@ const paths = [
 ];
 
 module.exports = {
+  productionSourceMap: false,
   configureWebpack: {
     plugins: [
       new SitemapPlugin({ base: 'https://www.hubertus-pfraundorf.de', paths }),

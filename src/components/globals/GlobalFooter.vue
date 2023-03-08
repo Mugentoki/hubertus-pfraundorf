@@ -30,6 +30,7 @@
           <a v-for="(link, index) in externalLinks"
             :key="index"
             :href="link.href"
+            rel="noopener"
             target="_blank">
             {{ link.title }}
           </a>
