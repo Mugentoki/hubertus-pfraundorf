@@ -2,7 +2,8 @@
   <footer class="footer">
     <div class="footer-pre">
       <div class="footer-logo">
-        <BaseImage src="logo-large.png" alt="Wappen Hubertus Pfraundorf" />
+        <BaseImage src="logo-large.png"
+          alt="Wappen Hubertus Pfraundorf" width="110" height="134"/>
       </div>
       <div class="footer-nav-1">
         <p class="footer-title">Hubertus Pfraundorf</p>

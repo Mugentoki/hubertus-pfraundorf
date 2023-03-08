@@ -6,6 +6,8 @@
     :loading="loading"
     :decoding="decoding"
     :class="classes"
+    :width="width"
+    :height="height"
   />
 </template>
 
@@ -32,6 +34,14 @@ export default {
     classes: {
       type: String,
       default: '',
+    },
+    width: {
+      type: String,
+      default: '',
+    },
+    height: {
+      type: String,
+      defaut: '',
     },
   },
 };

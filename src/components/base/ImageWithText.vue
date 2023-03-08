@@ -1,7 +1,7 @@
 <template>
   <div class="image-with-text">
     <div class="image-container" v-if="type === 'left'">
-      <BaseImage :src="src" :alt="alt" />
+      <BaseImage :src="src" :alt="alt" :width="width" :height="height"/>
     </div>
     <div class="text-container">
       <slot />
@@ -27,6 +27,14 @@ export default {
     type: {
       type: String,
       default: 'left',
+    },
+    width: {
+      type: String,
+      default: '',
+    },
+    height: {
+      type: String,
+      default: '',
     },
   },
 };

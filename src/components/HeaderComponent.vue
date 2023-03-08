@@ -2,7 +2,9 @@
   <div
     class="component-header"
     :style="backgroundStyles">
-    <BaseImage src="logo-large.png" alt="Wappen Hubertus Pfraundorf" />
+    <BaseImage src="logo-large.png"
+      alt="Wappen Hubertus Pfraundorf"
+      loading="eager" width="200" height="245"/>
     <h1>SG "Hubertus" Pfraundorf e.V.</h1>
     <div v-if="showScrollDown" class="scroll-down">
       <a href="#termine"><span></span>Scroll</a>
