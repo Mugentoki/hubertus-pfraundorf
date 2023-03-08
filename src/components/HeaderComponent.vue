@@ -45,6 +45,7 @@ export default {
     margin-bottom: 25px;
     width: 200px;
     filter: drop-shadow(0 10px 6px #00000066);
+    object-fit: contain;
   }
 
   .component-header {
