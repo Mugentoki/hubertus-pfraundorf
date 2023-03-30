@@ -14,9 +14,10 @@
           @click="toggleMenu"
           @keypress="menuKey">
         <a href="/#termine">Aktuelles</a>
-        <a href="/#verein">Verein</a>
+        <!--- <a href="/#verein">Verein</a> -->
         <a href="/#dorfkoenig">Dorfkönig</a>
         <a href="/#standort">Standort</a>
+        <router-link to="/vorstandschaft">Vorstandschaft</router-link>
       </nav>
       <div class="burger-menu"
           :class="isMenuOpen ? 'open' : ''"

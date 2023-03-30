@@ -38,46 +38,29 @@ export default {
       isPopupOpen: false,
       events: [
         {
-          title: 'Jahreshauptversammlung',
-          date: '10 14 2022',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
+          title: '31.03. - Endschießen',
+          date: '03 31 2023',
+          details: 'Letzter Schießabend mit Wertung für das Endschießen sowie der Wanderpokale.',
         },
         {
-          title: 'Anfangsschießen',
-          date: '10 21 2022',
-          details: `Ab dem 21.10. beginnt die neue Saison mit dem Anfangsschießen.
-          Wie gewohnt immer Freitags ab 17:00 bis 20:00 Uhr`,
+          title: '06.04. - Preisverteilung beim Alten Wirt',
+          date: '04 06 2023',
+          details: 'Am 4. April, Gründonnerstag, findet ab 18:30 Uhr die Preisverteilung der Saison 2022/23 statt.',
         },
         {
-          title: 'Anderes Schießen',
-          date: '10 31 2022',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
+          title: '15.04. bis 20.04.2023 – 12. Raublinger Dorfkönigschießen',
+          date: '04 20 2023',
+          details: 'Ab Samstag 15. April startet das 12. Raublinger Dorfkönigschießen, täglich bis inklusive Donnerstag 20. April. Genauere Details sind in den Flyern weiter unten zu finden.',
         },
         {
-          title: 'Anderes Schießen',
-          date: '02 27 2023',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
+          title: '29.04.2023 – Preisverteilung Dorfkönigschießen',
+          date: '04 29 2023',
+          details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freuwilligen Feuerwehr Pfraundorf.',
         },
         {
-          title: 'Anderes Schießen',
-          date: '03 01 2023',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
-        },
-        {
-          title: 'Anderes Schießen',
-          date: '03 02 2023',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
-        },
-        {
-          title: 'Anderes Schießen',
-          date: '04 03 2023',
-          details: `Am Freitag den 14.10. findet um 19:30 Uhr
-          beim Alten Wirt in Pfraundorf unsere Jahreshauptversammlung statt.`,
+          title: '08.07.2023 – Bierfest',
+          date: '07 08 2023',
+          details: 'Dieses Jahr findet wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche statt.',
         },
       ],
     };

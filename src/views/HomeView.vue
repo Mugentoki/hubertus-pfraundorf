@@ -3,7 +3,7 @@
     <HeaderComponent :showScrollDown="true"/>
     <div class="page-content">
       <EventComponent anchor="termine"/>
-      <HubertusComponent anchor="verein"/>
+      <!-- <HubertusComponent anchor="verein"/> -->
       <DorfkoenigComponent anchor="dorfkoenig"/>
       <LocationComponent anchor="standort"/>
     </div>
@@ -16,7 +16,7 @@ import HeaderComponent from '@/components/HeaderComponent.vue';
 import EventComponent from '@/components/EventComponent.vue';
 import LocationComponent from '@/components/LocationComponent.vue';
 import DorfkoenigComponent from '@/components/DorfkoenigComponent.vue';
-import HubertusComponent from '@/components/HubertusComponent.vue';
+// import HubertusComponent from '@/components/HubertusComponent.vue';
 
 export default {
   name: 'HomeView',
@@ -25,7 +25,7 @@ export default {
     EventComponent,
     LocationComponent,
     DorfkoenigComponent,
-    HubertusComponent,
+    // HubertusComponent,
   },
 };
 </script>
