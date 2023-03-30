@@ -28,36 +28,130 @@ export default {
     return {
       downloadCategories: [
         {
-          title: 'Dorfkönig 2023',
+          title: 'Dorfkönig 2020',
           downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2020/dorfkoenig-2020.pdf',
+              available: 1600000000,
+            },
             {
               title: 'Mannschaft',
               icon: 'pdf',
-              link: '/files/dorfkoenig-2023/dummy.pdf',
-              available: 1676057018,
+              link: '/files/2020/dorfkoenig-mannschaftswertung-2020.pdf',
+              available: 1600000000,
+            },
+            {
+              title: 'Meistbeteiligung',
+              icon: 'pdf',
+              link: '/files/2020/dorfkoenig-meistbeteiligung-2020.pdf',
+              available: 1600000000,
             },
             {
               title: 'Einzelwertung',
               icon: 'pdf',
-              link: '/files/dorfkoenig-2023/dummy.pdf',
-              available: 1676057018,
+              link: '/files/2020/dorfkoenig-einzelwertung-2020.pdf',
+              available: 1600000000,
             },
           ],
         },
         {
-          title: 'Dorfkönig 2020',
+          title: 'Dorfkönig 2018',
           downloads: [
             {
-              title: 'Mannschaft',
+              title: 'Dorfkönig',
               icon: 'pdf',
-              link: '/files/dorfkoenig-2023/dummy.pdf',
-              available: 1677618330,
+              link: '/files/2018/dorfkoenig-2018.pdf',
+              available: 1600000000,
             },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2017',
+          downloads: [
             {
-              title: 'Einzelwertung',
+              title: 'Dorfkönig',
               icon: 'pdf',
-              link: '/files/dorfkoenig-2023/dummy.pdf',
-              available: 1677618330,
+              link: '/files/2017/dorfkoenig-2017.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2016',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2016/dorfkoenig-2016.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2015',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2015/dorfkoenig-2015.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2014',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2014/dorfkoenig-2014.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2013',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2013/dorfkoenig-2013.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2012',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2012/dorfkoenig-2012.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2011',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2011/dorfkoenig-2011.pdf',
+              available: 1600000000,
+            },
+          ],
+        },
+        {
+          title: 'Dorfkönig 2010',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2010/dorfkoenig-2010.pdf',
+              available: 1600000000,
             },
           ],
         },
@@ -103,7 +197,6 @@ export default {
       width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
     }
 
     p {
