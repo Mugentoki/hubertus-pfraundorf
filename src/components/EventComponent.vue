@@ -39,27 +39,27 @@ export default {
       events: [
         {
           title: '31.03. - Endschießen',
-          date: '03 31 2023',
+          date: '04 01 2023',
           details: 'Letzter Schießabend mit Wertung für das Endschießen sowie der Wanderpokale.',
         },
         {
           title: '06.04. - Preisverteilung beim Alten Wirt',
-          date: '04 06 2023',
-          details: 'Am 4. April, Gründonnerstag, findet ab 18:30 Uhr die Preisverteilung der Saison 2022/23 statt.',
+          date: '04 07 2023',
+          details: 'Am 6. April, Gründonnerstag, findet ab 18:30 Uhr die Preisverteilung der Saison 2022/23 statt.',
         },
         {
           title: '15.04. bis 20.04.2023 – 12. Raublinger Dorfkönigschießen',
-          date: '04 20 2023',
+          date: '04 21 2023',
           details: 'Ab Samstag 15. April startet das 12. Raublinger Dorfkönigschießen, täglich bis inklusive Donnerstag 20. April. Genauere Details sind in den Flyern weiter unten zu finden.',
         },
         {
           title: '29.04.2023 – Preisverteilung Dorfkönigschießen',
-          date: '04 29 2023',
+          date: '04 30 2023',
           details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freuwilligen Feuerwehr Pfraundorf.',
         },
         {
           title: '08.07.2023 – Bierfest',
-          date: '07 08 2023',
+          date: '07 09 2023',
           details: 'Dieses Jahr findet wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche statt.',
         },
       ],
@@ -81,6 +81,7 @@ export default {
       const currentTime = Date.now();
       const upcomingEvents = this.events.filter((event) => {
         const eventDate = Date.parse(event.date);
+        console.log(eventDate);
         return eventDate >= currentTime;
       });
 
