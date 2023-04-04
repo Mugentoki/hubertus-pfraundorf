@@ -69,7 +69,7 @@ export default {
           positions: ['Zeugwart'],
         },
         {
-          name: 'Alber Berger jun.',
+          name: 'Albert Berger jun.',
           image: 'chairman/albert-berger-jun.jpg',
           positions: ['Beisitzer'],
         },
