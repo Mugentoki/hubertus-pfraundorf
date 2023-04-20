@@ -45,6 +45,9 @@
       <BaseImage src="dorfkoenig/flyer-3.jpg" alt="Dorfkönig Flyer 3" />
       <BaseImage src="dorfkoenig/flyer-4.jpg" alt="Dorfkönig Flyer 4" />
     </div>
+    <div class="dk-ergebnisse">
+      <router-link to="/downloads">Ergebnisse</router-link>
+    </div>
   </div>
 </template>
 
@@ -69,6 +72,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
+  @import '~@/assets/scss/abstract/_mixins.scss';
 
   .component-dorfkoenig {
     padding: $padding-topbottom $padding-sides;
@@ -84,6 +88,25 @@ export default {
 
       @media all and (min-width: $tablet) {
         width: calc((100% - 16px) / 2);
+      }
+    }
+  }
+
+  .dk-ergebnisse {
+    a {
+      @include fuzzy-background;
+      display: block;
+      background-color: $color-green;
+      color: $color-white;
+      padding: 5px 20px;
+      font-size: 2.2rem;
+      text-decoration: none;
+      transition: $base-transition;
+      width: fit-content;
+      margin: 25px auto 0;
+
+      &:hover {
+        background-color: $color-green-light;
       }
     }
   }

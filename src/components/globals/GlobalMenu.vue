@@ -18,6 +18,7 @@
         <a href="/#dorfkoenig">Dorfkönig</a>
         <a href="/#standort">Standort</a>
         <router-link to="/vorstandschaft">Vorstandschaft</router-link>
+        <router-link to="/downloads">Ergebnisse</router-link>
       </nav>
       <div class="burger-menu"
           :class="isMenuOpen ? 'open' : ''"
