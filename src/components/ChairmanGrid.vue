@@ -74,14 +74,14 @@ export default {
           positions: ['Beisitzer'],
         },
         {
+          name: 'Sabine Weingartner',
+          image: 'chairman/sabine-fischer.jpg',
+          positions: ['Beisitzerin'],
+        },
+        {
           name: 'Sebastian Estermann jun.',
           image: 'chairman/chairman-fallback.png',
           positions: ['Beisitzer'],
-        },
-        {
-          name: 'Sabine Weingartner',
-          image: 'chairman/chairman-fallback.png',
-          positions: ['Beisitzerin'],
         },
       ],
     };

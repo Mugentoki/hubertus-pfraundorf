@@ -28,6 +28,35 @@ export default {
     return {
       downloadCategories: [
         {
+          title: 'Dorfkönig 2023',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2023/12-dorfkoenig-2023.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Mannschaft Ring',
+              icon: 'pdf',
+              link: '/files/2023/12-dorfkoenig-mannschaft-ring-2023.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Mannschaft Meistbeteiligung',
+              icon: 'pdf',
+              link: '/files/2023/12-dorfkoenig-mannschaft-meistbeteiligung-2023.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Einzelwertung',
+              icon: 'pdf',
+              link: '/files/2023/12-dorfkoenig-einzelwertung-2023.pdf',
+              available: 1682794800,
+            },
+          ],
+        },
+        {
           title: 'Dorfkönig 2020',
           downloads: [
             {
@@ -37,13 +66,13 @@ export default {
               available: 1600000000,
             },
             {
-              title: 'Mannschaft',
+              title: 'Mannschaft Ring',
               icon: 'pdf',
               link: '/files/2020/dorfkoenig-mannschaftswertung-2020.pdf',
               available: 1600000000,
             },
             {
-              title: 'Meistbeteiligung',
+              title: 'Mannschaft Meistbeteiligung',
               icon: 'pdf',
               link: '/files/2020/dorfkoenig-meistbeteiligung-2020.pdf',
               available: 1600000000,

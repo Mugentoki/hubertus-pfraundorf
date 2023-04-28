@@ -38,29 +38,24 @@ export default {
       isPopupOpen: false,
       events: [
         {
-          title: 'Endschießen',
-          date: '03 31 2023',
-          details: 'Letzter Schießabend mit Wertung für das Endschießen sowie der Wanderpokale.',
-        },
-        {
-          title: 'Preisverteilung beim Alten Wirt',
-          date: '04 06 2023',
-          details: 'Am 6. April, Gründonnerstag, findet ab 18:30 Uhr die Preisverteilung der Saison 2022/23 statt.',
-        },
-        {
-          title: '15.04. bis 20.04.2023 – 12. Raublinger Dorfkönigschießen',
-          date: '04 20 2023',
-          details: 'Ab Samstag 15. April startet das 12. Raublinger Dorfkönigschießen, täglich bis inklusive Donnerstag 20. April. Genauere Details sind in den Flyern weiter unten zu finden.',
-        },
-        {
           title: '29.04.2023 – Preisverteilung Dorfkönigschießen',
           date: '04 29 2023',
           details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freuwilligen Feuerwehr Pfraundorf.',
         },
         {
+          title: '08.06.2023 – Fronleichnam',
+          date: '06 08 2023',
+          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam mit Vorstandschaft und Fahnenabordnung, alle Mitglieder sind jedoch herzlich eingeladen an Kirche und Umzug teilzunehmen.',
+        },
+        {
+          title: '08.06.2023 – Vereinsjahrtag',
+          date: '06 08 2023',
+          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein mit Vorstandschaft und Fahnenabordnung an Umzug und Kirche teil, treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wird um 8:30 Uhr.',
+        },
+        {
           title: '08.07.2023 – Bierfest',
           date: '07 08 2023',
-          details: 'Dieses Jahr findet wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche statt.',
+          details: 'Dieses Jahr findet am Samstag den 8. Juli, ab 19 Uhr,  wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche in Pfraunorf statt.',
         },
       ],
     };
@@ -80,8 +75,8 @@ export default {
     getCurrentEvents() {
       const currentTime = Date.now();
       const upcomingEvents = this.events.filter((event) => {
-        const eventDate = Date.parse(event.date);
-        console.log(eventDate);
+        let eventDate = Date.parse(event.date);
+        eventDate += 86_400_000; // add + 24 hours so the event disappers after the actual day
         return eventDate >= currentTime;
       });
 
