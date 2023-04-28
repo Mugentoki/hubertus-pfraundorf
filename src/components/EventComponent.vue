@@ -40,17 +40,17 @@ export default {
         {
           title: '29.04.2023 – Preisverteilung Dorfkönigschießen',
           date: '04 29 2023',
-          details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freuwilligen Feuerwehr Pfraundorf.',
+          details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf.',
         },
         {
           title: '08.06.2023 – Fronleichnam',
           date: '06 08 2023',
-          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam mit Vorstandschaft und Fahnenabordnung, alle Mitglieder sind jedoch herzlich eingeladen an Kirche und Umzug teilzunehmen.',
+          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam, alle Mitglieder sind jedoch herzlich eingeladen an Kirche und Umzug teilzunehmen.',
         },
         {
           title: '08.06.2023 – Vereinsjahrtag',
           date: '06 08 2023',
-          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein mit Vorstandschaft und Fahnenabordnung an Umzug und Kirche teil, treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wird um 8:30 Uhr.',
+          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein an Umzug und Kirche teil, Treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wird um 8:30 Uhr.',
         },
         {
           title: '08.07.2023 – Bierfest',
