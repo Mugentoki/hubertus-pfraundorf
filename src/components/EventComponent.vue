@@ -45,7 +45,7 @@ export default {
         {
           title: '08.06.2023 – Fronleichnam',
           date: '06 08 2023',
-          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam, alle Mitglieder sind jedoch herzlich eingeladen an Kirche und Umzug teilzunehmen.',
+          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam, alle Mitglieder sind herzlich eingeladen an Kirche und Umzug teilzunehmen.',
         },
         {
           title: '08.06.2023 – Vereinsjahrtag',
