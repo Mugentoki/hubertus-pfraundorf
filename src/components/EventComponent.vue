@@ -48,8 +48,8 @@ export default {
           details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam, alle Mitglieder sind herzlich eingeladen an Kirche und Umzug teilzunehmen.',
         },
         {
-          title: '08.06.2023 – Vereinsjahrtag',
-          date: '06 08 2023',
+          title: '18.06.2023 – Vereinsjahrtag',
+          date: '06 18 2023',
           details: 'Auch am Vereinsjahrtag nimmt der Schützenverein an Umzug und Kirche teil, Treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wird um 8:30 Uhr.',
         },
         {
