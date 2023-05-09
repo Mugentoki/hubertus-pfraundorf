@@ -50,12 +50,12 @@ export default {
         {
           title: '18.06.2023 – Vereinsjahrtag',
           date: '06 18 2023',
-          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein an Umzug und Kirche teil, Treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wird um 8:30 Uhr.',
+          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein an Umzug und Kirche teil, Treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wirt um 8:30 Uhr.',
         },
         {
           title: '08.07.2023 – Bierfest',
           date: '07 08 2023',
-          details: 'Dieses Jahr findet am Samstag den 8. Juli, ab 19 Uhr,  wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche in Pfraunorf statt.',
+          details: 'Dieses Jahr findet am Samstag den 8. Juli, ab 19 Uhr,  wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche in Pfraundorf statt.',
         },
       ],
     };
