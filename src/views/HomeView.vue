@@ -4,7 +4,7 @@
     <div class="page-content">
       <EventComponent anchor="termine"/>
       <!-- <HubertusComponent anchor="verein"/> -->
-      <DorfkoenigComponent anchor="dorfkoenig"/>
+      <DorfkoenigComponent anchor="bierfest"/>
       <LocationComponent anchor="standort"/>
     </div>
   </div>

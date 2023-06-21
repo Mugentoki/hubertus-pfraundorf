@@ -1,6 +1,6 @@
 <template>
   <div class="component-dorfkoenig" :id="anchor">
-    <h2>Raublinger Dorfkönigschießen</h2>
+    <h2 style="visibility: hidden;;">Bierfest</h2>
     <!-- <BaseTextblock>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -40,14 +40,11 @@
     </BaseTextblock>
     </ImageWithText> -->
     <div class="image-grid">
-      <BaseImage src="dorfkoenig/flyer-1.jpg" alt="Dorfkönig Flyer 1" />
-      <BaseImage src="dorfkoenig/flyer-2.jpg" alt="Dorfkönig Flyer 2" />
-      <BaseImage src="dorfkoenig/flyer-3.jpg" alt="Dorfkönig Flyer 3" />
-      <BaseImage src="dorfkoenig/flyer-4.jpg" alt="Dorfkönig Flyer 4" />
+      <BaseImage src="bierfest.jpg" alt="Bierfest" />
     </div>
-    <div class="dk-ergebnisse">
+    <!--<div class="dk-ergebnisse">
       <router-link to="/downloads">Ergebnisse</router-link>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -82,6 +79,8 @@ export default {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    align-items: center;
+    justify-content: center;
 
     img {
       width: 100%;
