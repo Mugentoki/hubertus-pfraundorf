@@ -8,7 +8,7 @@
       <div class="footer-nav-1">
         <p class="footer-title">Hubertus Pfraundorf</p>
         <nav class="footer-nav">
-          <a href="/#bierfest">Bierfest</a>
+          <!-- <a href="/#bierfest">Bierfest</a> -->
           <router-link to="/vorstandschaft">Vorstandschaft</router-link>
           <router-link to="/downloads">Downloads</router-link>
         </nav>

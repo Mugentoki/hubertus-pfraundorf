@@ -57,6 +57,11 @@ export default {
           date: '07 08 2023',
           details: 'Dieses Jahr findet am Samstag den 8. Juli, ab 19 Uhr,  wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche in Pfraundorf statt.',
         },
+        {
+          title: '13.10.2023 – Jahreshauptversammlung',
+          date: '10 13 2023',
+          details: 'Dieses Jahr finden wieder Neuwahlen statt! Die Jahreshauptversammlung beginnt ab 19:30 Uhr beim Alten Wirt. Wir bitten um zahlreiche Teilnahme.',
+        },
       ],
     };
   },
