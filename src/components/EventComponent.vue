@@ -38,29 +38,64 @@ export default {
       isPopupOpen: false,
       events: [
         {
-          title: '29.04.2023 – Preisverteilung Dorfkönigschießen',
-          date: '04 29 2023',
-          details: 'Am Samstag den 29. April findet um 18:00 Uhr die Siegerehrung des Dorfkönigschießens statt, in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf.',
+          title: '19.11.2023 – Volkstrauertag',
+          date: '11 19 2023',
+          details: 'Aufstellung der Fahnenabordnungen um 8:30 Uhr beim Alten Wirt, der Gottesdienst in der St. Nikolaus Kirche beginnt um 8:45 Uhr mit anschließender Totenehrung am Kriegerdenkmal. Alle Vereinsmitglieder sind herzlich eingeladen beim Umzug und Gottesdienst teil zu nehmen.',
         },
         {
-          title: '08.06.2023 – Fronleichnam',
-          date: '06 08 2023',
-          details: 'Wie jedes Jahr beteiligen wir uns an Fronleichnam, alle Mitglieder sind herzlich eingeladen an Kirche und Umzug teilzunehmen.',
+          title: '08.12.2023 – Nikolausschießen mit Brotzeit',
+          date: '12 08 2023',
+          details: 'Dieses Jahr wird wieder eine Nikolausscheibe mit einem Schuss auf ein unbekanntes Ziel ausgeschossen, anschließend gibt es Brotzeit im Schützenhaus. Fürs Essen wird wieder eine Liste ausgelegt, damit wir eine ungefähre Anzahl wissen. Bitte tragt euch ein oder gebt uns anderweitig bescheid.',
         },
         {
-          title: '18.06.2023 – Vereinsjahrtag',
-          date: '06 18 2023',
-          details: 'Auch am Vereinsjahrtag nimmt der Schützenverein an Umzug und Kirche teil, Treffpunkt ist um 8:10 Uhr am Schützenhaus. Abmarsch beim Alten Wirt um 8:30 Uhr.',
+          title: '05.01.2024 – Christbaumversteigerung in Happing',
+          date: '01 05 2024',
+          details: 'Die Happinger Schützen veranstalten wieder ihre jährliche Christbaumversteigerung beim Happinger Hof, es ist jeder herzlich eingeladen mit zu kommen.',
         },
         {
-          title: '08.07.2023 – Bierfest',
-          date: '07 08 2023',
-          details: 'Dieses Jahr findet am Samstag den 8. Juli, ab 19 Uhr,  wieder unser Bierfest auf dem Parkplatz der St. Nikolaus Kirche in Pfraundorf statt.',
+          title: '09.02.2024 – Faschingsschießen mit Kesselfleisch',
+          date: '02 09 2024',
+          details: 'Ausgeschossen wird wieder eine Faschingsscheibe. Nach dem Schießen gibt es Leberwürst, Blutwürst und Kesselfleisch im Schützenhaus. Der Kessel wird in gemütlicher Runde (voraussichtlich) ab 15 Uhr angeheizt, Vereinsmitglieder sind zum dazugesellen herzlich eingeladen. Es wird wieder eine Liste aufgelegt, bitte tragt euch ein was und wie viel ihr essen wollt.',
         },
         {
-          title: '13.10.2023 – Jahreshauptversammlung',
-          date: '10 13 2023',
-          details: 'Dieses Jahr finden wieder Neuwahlen statt! Die Jahreshauptversammlung beginnt ab 19:30 Uhr beim Alten Wirt. Wir bitten um zahlreiche Teilnahme.',
+          title: '24. - 29.02.2024 – Dorfkönigschießen',
+          date: '02 29 2024',
+          details: 'Wir laden wieder alle Einwohner, Vereine und Firmen von Raubling, sowie deren Mitglieder und Angestellte, herzlich zum 13. Raublinger Dorfkönigschießen ein. Vorkenntnisse und eigene Ausrüstung sind nicht nötig, es ist jeder willkommen!',
+        },
+        {
+          title: '09.03.2024 – Preisverteilung Dorfkönigschießen',
+          date: '03 09 2024',
+          details: 'Die Preisverteilung findet ab 19 Uhr in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf statt.',
+        },
+        {
+          title: '15.03.2024 – Königschießen',
+          date: '03 15 2024',
+          details: 'Ausschießen des Schützenkönigs',
+        },
+        {
+          title: '22.03.2024 – Endschießen',
+          date: '03 22 2024',
+          details: 'Ausschießen der Wanderpokale und den Fleischpreisen',
+        },
+        {
+          title: '05.04.2024 – Endfeier',
+          date: '04 05 2024',
+          details: 'Die Preisverteilung für die Saison 23/24, Königschießen und Endschießen findet in geselliger Runde ab 18:30 Uhr beim Alten Wirt statt.',
+        },
+        {
+          title: '16.06.2024 – Vereinsjahrtag',
+          date: '06 16 2024',
+          details: 'Umzug und Gottesdienst für die Vereine, alle Vereinsmitglieder sind herzlich willkommen teilzunehmen.',
+        },
+        {
+          title: '13.07.2024 – Bierfest',
+          date: '07 13 2024',
+          details: 'Auf dem Kirchenparkplatz halten wir ab 18 Uhr wieder unser Bierfest ab',
+        },
+        {
+          title: '11.10.2024 – Jahreshauptversammlung',
+          date: '04 05 2024',
+          details: 'Ab 19:30 Uhr findet die Jahreshauptversammlung statt, wie gewohnt beim Alten Wirt in Pfraundorf.',
         },
       ],
     };
@@ -126,6 +161,11 @@ export default {
   .event-date {
     font-size: 1.8rem;
     margin-bottom: 15px;
+  }
+
+  .event-details {
+    display: block;
+    width: 100%;
   }
 
   .event-action {
