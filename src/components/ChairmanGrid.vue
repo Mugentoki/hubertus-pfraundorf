@@ -39,14 +39,14 @@ export default {
           positions: ['1. Kassierin'],
         },
         {
-          name: 'Angelika Berger',
-          image: 'chairman/angelika-berger.jpg',
+          name: 'Leana Ascher',
+          image: 'chairman/chairman-fallback.png',
           positions: ['Schriftführerin'],
         },
         {
-          name: 'Michael Harbuz',
-          image: 'chairman/michael-harbuz.jpg',
-          positions: ['2. Kassier'],
+          name: 'Steffi Festner',
+          image: 'chairman/chairman-fallback.png',
+          positions: ['2. Kassierin'],
         },
         {
           name: 'Georg Neuner',
@@ -79,8 +79,8 @@ export default {
           positions: ['Beisitzerin'],
         },
         {
-          name: 'Sebastian Estermann jun.',
-          image: 'chairman/chairman-fallback.png',
+          name: 'Franz Pichler',
+          image: 'chairman/franz-pichler.jpg',
           positions: ['Beisitzer'],
         },
       ],

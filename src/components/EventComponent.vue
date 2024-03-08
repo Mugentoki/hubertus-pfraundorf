@@ -53,7 +53,7 @@ export default {
           details: 'Die Happinger Schützen veranstalten wieder ihre jährliche Christbaumversteigerung beim Happinger Hof, es ist jeder herzlich eingeladen mit zu kommen.',
         },
         {
-          title: '09.02.2024 – Faschingsschießen mit Kesselfleisch',
+          title: '09.02.2024 – Faschingsschießen mit Kesselfleisch (für Vereinsmitglieder)',
           date: '02 09 2024',
           details: 'Ausgeschossen wird wieder eine Faschingsscheibe. Nach dem Schießen gibt es Leberwürst, Blutwürst und Kesselfleisch im Schützenhaus. Der Kessel wird in gemütlicher Runde (voraussichtlich) ab 15 Uhr angeheizt, Vereinsmitglieder sind zum dazugesellen herzlich eingeladen. Es wird wieder eine Liste aufgelegt, bitte tragt euch ein was und wie viel ihr essen wollt.',
         },
@@ -65,7 +65,7 @@ export default {
         {
           title: '09.03.2024 – Preisverteilung Dorfkönigschießen',
           date: '03 09 2024',
-          details: 'Die Preisverteilung findet ab 19 Uhr in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf statt.',
+          details: 'Die Preisverteilung findet ab 18 Uhr in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf statt.',
         },
         {
           title: '15.03.2024 – Königschießen',

@@ -28,6 +28,35 @@ export default {
     return {
       downloadCategories: [
         {
+          title: 'Dorfkönig 2024',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2024/13-dorfkoenig-2024.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Mannschaft Ring',
+              icon: 'pdf',
+              link: '/files/2024/13-dorfkoenig-mannschaftswertung-2024.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Mannschaft Meistbeteiligung',
+              icon: 'pdf',
+              link: '/files/2024/13-dorfkoenig-mannschaft-meistbeteiligung-2024.pdf',
+              available: 1682794800,
+            },
+            {
+              title: 'Einzelwertung',
+              icon: 'pdf',
+              link: '/files/2024/13-dorfkoenig-einzelwertung-2024.pdf',
+              available: 1682794800,
+            },
+          ],
+        },
+        {
           title: 'Dorfkönig 2023',
           downloads: [
             {
