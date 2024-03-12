@@ -10,7 +10,7 @@
           {{ position }}
         </p>
       </div>
-      <BaseImage :src="chairman.image" alt="chairman.name" />
+      <BaseImage :src="chairman.image" :alt="chairman.name" :loading="chairman.loading" />
     </div>
   </div>
 </template>
@@ -25,63 +25,75 @@ export default {
       chairmans: [
         {
           name: 'Thomas Berger',
-          image: 'chairman/thomas-berger.jpg',
+          image: 'chairman/thomas-berger.webp',
           positions: ['1. Schützenmeister'],
+          loading: 'eager',
         },
         {
           name: 'Alexander Berger',
-          image: 'chairman/alexander-berger.jpg',
+          image: 'chairman/alexander-berger.webp',
           positions: ['2. Schützenmeister', 'Sportleiter'],
+          loading: 'lazy',
         },
         {
           name: 'Rebecca Lehnig',
-          image: 'chairman/rebecca-lehnig.jpg',
+          image: 'chairman/rebecca-lehnig.webp',
           positions: ['1. Kassierin'],
+          loading: 'lazy',
         },
         {
           name: 'Leana Ascher',
-          image: 'chairman/chairman-fallback.png',
+          image: 'chairman/ascher-leana.webp',
           positions: ['Schriftführerin'],
+          loading: 'lazy',
         },
         {
           name: 'Steffi Festner',
-          image: 'chairman/chairman-fallback.png',
+          image: 'chairman/steffi-festner.webp',
           positions: ['2. Kassierin'],
+          loading: 'lazy',
         },
         {
           name: 'Georg Neuner',
-          image: 'chairman/georg-neuner.jpg',
+          image: 'chairman/georg-neuner.webp',
           positions: ['Fähnrich'],
+          loading: 'lazy',
         },
         {
           name: 'Sebastian Festner',
-          image: 'chairman/sebastian-festner.jpg',
+          image: 'chairman/sebastian-festner.webp',
           positions: ['Fahnenbegleiter', 'Jugendwart'],
+          loading: 'lazy',
         },
         {
           name: 'Andreas Berger',
-          image: 'chairman/andreas-berger.jpg',
+          image: 'chairman/andreas-berger.webp',
           positions: ['Fahnenbegleiter'],
+          loading: 'lazy',
         },
         {
           name: 'Sebastian Estermann sen.',
-          image: 'chairman/sebastian-estermann-sen.jpg',
+          image: 'chairman/sebastian-estermann-sen.webp',
           positions: ['Zeugwart'],
+          loading: 'lazy',
         },
         {
           name: 'Albert Berger jun.',
-          image: 'chairman/albert-berger-jun.jpg',
+          image: 'chairman/albert-berger-jun.webp',
           positions: ['Beisitzer'],
+          loading: 'lazy',
         },
         {
           name: 'Sabine Weingartner',
-          image: 'chairman/sabine-fischer.jpg',
+          image: 'chairman/sabine-fischer.webp',
           positions: ['Beisitzerin'],
+          loading: 'lazy',
         },
         {
           name: 'Franz Pichler',
-          image: 'chairman/franz-pichler.jpg',
+          image: 'chairman/franz-pichler.webp',
           positions: ['Beisitzer'],
+          loading: 'lazy',
         },
       ],
     };

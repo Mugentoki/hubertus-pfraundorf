@@ -2,7 +2,7 @@
   <div
     class="component-header"
     :style="backgroundStyles">
-    <BaseImage src="logo-large.webp"
+    <BaseImage src="logo.svg"
       alt="Wappen Hubertus Pfraundorf"
       loading="eager" width="200" height="245"/>
     <h1>SG "Hubertus" Pfraundorf e.V.</h1>

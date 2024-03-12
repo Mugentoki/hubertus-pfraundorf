@@ -3,7 +3,7 @@
     <div class="header-inner">
       <div class="logo-container">
         <a href="/" title="Startseite">
-          <BaseImage src="logo-large.webp"
+          <BaseImage src="logo.svg"
             alt="Wappen Hubertus Pfraundorf"
             loading="eager" width="44" height="54"/>
           <span>Startseite</span>
