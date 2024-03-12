@@ -16,6 +16,9 @@ export default {
   components: {
     ChairmanComponent,
   },
+  head: {
+    title: 'Vorstandschaft | SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>
 

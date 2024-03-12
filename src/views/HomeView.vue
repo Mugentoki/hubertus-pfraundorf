@@ -27,5 +27,8 @@ export default {
     DorfkoenigComponent,
     // HubertusComponent,
   },
+  head: {
+    title: 'SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>

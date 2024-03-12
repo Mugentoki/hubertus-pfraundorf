@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import { VueHeadMixin, createHead } from '@unhead/vue';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
@@ -16,9 +17,13 @@ import ImageWithText from './components/base/ImageWithText.vue';
 
 import '@/assets/scss/main.scss';
 
+const head = createHead();
+
 createApp(App)
   .use(store)
   .use(router)
+  .mixin(VueHeadMixin)
+  .use(head)
   .component('GlobalMenu', GlobalMenu)
   .component('GlobalFooter', GlobalFooter)
   .component('BaseImage', BaseImage)

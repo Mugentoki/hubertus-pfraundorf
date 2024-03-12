@@ -177,6 +177,9 @@ export default {
   name: 'PrivacyView',
   components: {
   },
+  head: {
+    title: 'Datenschutz | SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>
 

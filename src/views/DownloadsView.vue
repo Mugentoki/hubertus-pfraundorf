@@ -16,6 +16,9 @@ export default {
   components: {
     DownloadComponent,
   },
+  head: {
+    title: 'Ergebnisse | SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>
 

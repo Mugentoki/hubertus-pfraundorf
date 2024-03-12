@@ -86,6 +86,9 @@ export default {
   name: 'ImprintView',
   components: {
   },
+  head: {
+    title: 'Impressum | SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>
 

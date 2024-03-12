@@ -18,5 +18,8 @@ export default {
     HeaderComponent,
     EventComponent,
   },
+  head: {
+    title: 'Dorfkönig | SG Hubertus Pfraundorf e.V.',
+  },
 };
 </script>
