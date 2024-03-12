@@ -9,14 +9,32 @@ module.exports = defineConfig({
 const paths = [
   {
     path: '/',
-    lastmod: '2021-11-22',
+    lastmod: '2024-03-12',
     priority: 1.0,
     changefreq: 'yearly',
   },
   {
-    path: '/about/',
-    lastmod: '2021-11-22',
+    path: '/vorstandschaft',
+    lastmod: '2024-03-12',
     priority: 0.9,
+    changefreq: 'yearly',
+  },
+  {
+    path: '/downloads',
+    lastmod: '2024-03-12',
+    priority: 0.9,
+    changefreq: 'yearly',
+  },
+  {
+    path: '/datenschutzerklaerung',
+    lastmod: '2024-03-12',
+    priority: 0.1,
+    changefreq: 'yearly',
+  },
+  {
+    path: '/impressum',
+    lastmod: '2024-03-12',
+    priority: 0.1,
     changefreq: 'yearly',
   },
 ];
