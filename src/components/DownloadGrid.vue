@@ -1,6 +1,24 @@
 <template>
   <div class="component-download">
-    <div v-for="(category, categoryIndex) in downloadCategories"
+    <h2>Ergebnisse Jahreswertung</h2>
+    <div v-for="(category, categoryIndex) in hubertusDownloadCategories"
+      :key="categoryIndex"
+      class="download-category">
+      <p class="h3">{{ category.title }}</p>
+      <div v-for="(download, downloadIndex) in category.downloads"
+        :key="downloadIndex"
+        class="download-container">
+        <a v-if="isFileAvailable(download.available)"
+        :href="download.link"
+        :title="download.title"
+        :class="download.icon"
+        download >
+        {{ download.title }}
+      </a>
+      </div>
+    </div>
+    <h2>Raublinger Dorfkönig</h2>
+    <div v-for="(category, categoryIndex) in dorkoenigDownloadCategories"
       :key="categoryIndex"
       class="download-category">
       <p class="h3">{{ category.title }}</p>
@@ -26,7 +44,50 @@ export default {
   },
   data() {
     return {
-      downloadCategories: [
+      hubertusDownloadCategories: [
+        {
+          title: 'Saison 2023 / 24',
+          downloads: [
+            {
+              title: 'Damenklasse',
+              icon: 'pdf',
+              link: '/files/saison/202324/damenklasse-2023-24.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Schützenklasse',
+              icon: 'pdf',
+              link: '/files/saison/202324/schuetzenklasse-2023-24.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Aufgelegt Damen',
+              icon: 'pdf',
+              link: '/files/saison/202324/aufgelegt-damen-2023-24.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Aufgelegt Männer',
+              icon: 'pdf',
+              link: '/files/saison/202324/aufgelegt-maenner-2023-24.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Schützenkönig, Wanderpokal, Scheibe',
+              icon: 'pdf',
+              link: '/files/saison/202324/schuetzenkoenig-wanderpokal-scheibe-2023-24.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Beste Teiler',
+              icon: 'pdf',
+              link: '/files/saison/202324/beste-teiler-2023-24.pdf',
+              available: 1710014400,
+            },
+          ],
+        },
+      ],
+      dorkoenigDownloadCategories: [
         {
           title: 'Dorfkönig 2024',
           downloads: [
@@ -236,7 +297,7 @@ export default {
 <style scoped lang="scss">
   @import '~@/assets/scss/abstract/_variables.scss';
 
-  $chairman-gap: 100px;
+  $chairman-gap: 50px;
 
   .component-download {
     margin-top: 75px;
@@ -248,6 +309,11 @@ export default {
 
     @media all and (min-width: $tablet) {
       grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+    }
+
+    h2 {
+      grid-column: span 3;
       text-align: left;
     }
 
@@ -264,7 +330,7 @@ export default {
     a {
       display: flex;
       align-items: flex-end;
-      margin: 0 0 2px;
+      margin: 0 0 5px;
       justify-content: center;
 
       @media all and (min-width: $tablet) {
@@ -272,16 +338,16 @@ export default {
       }
 
       &.pdf {
-        &:after {
+        &:before {
           content: '';
           background-image: url('~@/assets/icons/pdf.svg');
           background-size: contain;
           background-position: center;
           background-repeat: no-repeat;
-          width: 30px;
-          height: 30px;
+          width: 20px;
+          height: 20px;
           display: inline-block;
-          margin-left: 10px;
+          margin-right: 10px;
         }
       }
     }
