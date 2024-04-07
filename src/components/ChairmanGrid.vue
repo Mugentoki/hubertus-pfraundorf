@@ -12,6 +12,19 @@
       </div>
       <BaseImage :src="chairman.image" :alt="chairman.name" :loading="chairman.loading" />
     </div>
+    <h2>Unsere Ehrenmitglieder</h2>
+    <div v-for="(chairman, chairmanIndex) in honorary"
+      :key="chairmanIndex"
+      class="single-chairman">
+      <div class="chairman-content">
+        <p class="chariman-name h3">{{ chairman.name }}</p>
+        <p class="chairman-position" v-for="(position, positionIndex) in chairman.positions"
+          :key="positionIndex">
+          {{ position }}
+        </p>
+      </div>
+      <BaseImage :src="chairman.image" :alt="chairman.name" :loading="chairman.loading" />
+    </div>
   </div>
 </template>
 
@@ -96,6 +109,26 @@ export default {
           loading: 'lazy',
         },
       ],
+      honorary: [
+        {
+          name: 'Andreas Schröttinger',
+          image: 'logo-background.png',
+          positions: [''],
+          loading: 'lazy',
+        },
+        {
+          name: 'Norbert Retzer',
+          image: 'chairman/norbert-retzer.webp',
+          positions: [''],
+          loading: 'lazy',
+        },
+        {
+          name: 'Michael Harbuz',
+          image: 'chairman/michael-harbuz.webp',
+          positions: [''],
+          loading: 'lazy',
+        },
+      ],
     };
   },
   props: {
@@ -122,6 +155,10 @@ export default {
 
     @media all and (min-width: $tablet) {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    h2 {
+      grid-column: span 2;
     }
 
     .single-chairman {
