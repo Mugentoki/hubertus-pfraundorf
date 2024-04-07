@@ -313,8 +313,11 @@ export default {
     }
 
     h2 {
-      grid-column: span 3;
       text-align: left;
+
+      @media all and (min-width: $tablet) {
+        grid-column: span 3;
+      }
     }
 
     .download-category {

@@ -158,7 +158,11 @@ export default {
     }
 
     h2 {
-      grid-column: span 2;
+      text-align: left;
+
+      @media all and (min-width: $tablet) {
+        grid-column: span 2;
+      }
     }
 
     .single-chairman {
