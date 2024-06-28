@@ -1,6 +1,6 @@
 <template>
   <div class="component-dorfkoenig" :id="anchor">
-    <h2 style="visibility: hidden;;">13. Raublinger Dorfkönigschießen</h2>
+    <h2 style="visibility: hidden;;">Bierfest</h2>
     <!-- <BaseTextblock>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -40,10 +40,7 @@
     </BaseTextblock>
     </ImageWithText> -->
     <div class="image-grid">
-      <BaseImage src="dorfkoenig/flyer-1.webp" alt="Dorkönig Flyer 1" />
-      <BaseImage src="dorfkoenig/flyer-2.webp" alt="Dorkönig Flyer 2" />
-      <BaseImage src="dorfkoenig/flyer-3.webp" alt="Dorkönig Flyer 3" />
-      <BaseImage src="dorfkoenig/flyer-4.webp" alt="Dorkönig Flyer 4" />
+      <BaseImage src="bierfest/bierfest-2024.webp" alt="Bierfest 2024" />
     </div>
     <!--<div class="dk-ergebnisse">
       <router-link to="/downloads">Ergebnisse</router-link>
