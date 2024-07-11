@@ -1,6 +1,6 @@
 <template>
   <div class="component-dorfkoenig" :id="anchor">
-    <h2 style="visibility: hidden;;">Bierfest</h2>
+    <h2 style="visibility: hidden;;">Bierfest abgesagt</h2>
     <!-- <BaseTextblock>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -40,7 +40,7 @@
     </BaseTextblock>
     </ImageWithText> -->
     <div class="image-grid">
-      <BaseImage src="bierfest/bierfest-2024.webp" alt="Bierfest 2024" />
+      <BaseImage src="bierfest/bierfest-2024-abgesagt.webp" alt="Bierfest 2024 abgesagt" />
     </div>
     <!--<div class="dk-ergebnisse">
       <router-link to="/downloads">Ergebnisse</router-link>

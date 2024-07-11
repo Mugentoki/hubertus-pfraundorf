@@ -88,13 +88,13 @@ export default {
           details: 'Umzug und Gottesdienst für die Vereine, alle Vereinsmitglieder sind herzlich willkommen teilzunehmen.',
         },
         {
-          title: '13.07.2024 – Bierfest',
+          title: '13.07.2024 – Bierfest abgesagt',
           date: '07 13 2024',
-          details: 'Auf dem Kirchenparkplatz halten wir ab 18 Uhr wieder unser Bierfest ab',
+          details: 'Das Bierfest wurde dieses jahr wegen dem aktuell schlechten Wetter abgesagt.',
         },
         {
           title: '11.10.2024 – Jahreshauptversammlung',
-          date: '04 05 2024',
+          date: '10 11 2024',
           details: 'Ab 19:30 Uhr findet die Jahreshauptversammlung statt, wie gewohnt beim Alten Wirt in Pfraundorf.',
         },
       ],
