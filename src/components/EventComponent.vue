@@ -38,64 +38,19 @@ export default {
       isPopupOpen: false,
       events: [
         {
-          title: '19.11.2023 – Volkstrauertag',
-          date: '11 19 2023',
-          details: 'Aufstellung der Fahnenabordnungen um 8:30 Uhr beim Alten Wirt, der Gottesdienst in der St. Nikolaus Kirche beginnt um 8:45 Uhr mit anschließender Totenehrung am Kriegerdenkmal. Alle Vereinsmitglieder sind herzlich eingeladen beim Umzug und Gottesdienst teil zu nehmen.',
-        },
-        {
-          title: '08.12.2023 – Nikolausschießen mit Brotzeit',
-          date: '12 08 2023',
-          details: 'Dieses Jahr wird wieder eine Nikolausscheibe mit einem Schuss auf ein unbekanntes Ziel ausgeschossen, anschließend gibt es Brotzeit im Schützenhaus. Fürs Essen wird wieder eine Liste ausgelegt, damit wir eine ungefähre Anzahl wissen. Bitte tragt euch ein oder gebt uns anderweitig bescheid.',
-        },
-        {
-          title: '05.01.2024 – Christbaumversteigerung in Happing',
-          date: '01 05 2024',
-          details: 'Die Happinger Schützen veranstalten wieder ihre jährliche Christbaumversteigerung beim Happinger Hof, es ist jeder herzlich eingeladen mit zu kommen.',
-        },
-        {
-          title: '09.02.2024 – Faschingsschießen mit Kesselfleisch (für Vereinsmitglieder)',
-          date: '02 09 2024',
-          details: 'Ausgeschossen wird wieder eine Faschingsscheibe. Nach dem Schießen gibt es Leberwürst, Blutwürst und Kesselfleisch im Schützenhaus. Der Kessel wird in gemütlicher Runde (voraussichtlich) ab 15 Uhr angeheizt, Vereinsmitglieder sind zum dazugesellen herzlich eingeladen. Es wird wieder eine Liste aufgelegt, bitte tragt euch ein was und wie viel ihr essen wollt.',
-        },
-        {
-          title: '24. - 29.02.2024 – Dorfkönigschießen',
-          date: '02 29 2024',
-          details: 'Wir laden wieder alle Einwohner, Vereine und Firmen von Raubling, sowie deren Mitglieder und Angestellte, herzlich zum 13. Raublinger Dorfkönigschießen ein. Vorkenntnisse und eigene Ausrüstung sind nicht nötig, es ist jeder willkommen!',
-        },
-        {
-          title: '09.03.2024 – Preisverteilung Dorfkönigschießen',
-          date: '03 09 2024',
-          details: 'Die Preisverteilung findet ab 18 Uhr in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf statt.',
-        },
-        {
-          title: '15.03.2024 – Königschießen',
-          date: '03 15 2024',
-          details: 'Ausschießen des Schützenkönigs',
-        },
-        {
-          title: '22.03.2024 – Endschießen',
-          date: '03 22 2024',
-          details: 'Ausschießen der Wanderpokale und den Fleischpreisen',
-        },
-        {
-          title: '05.04.2024 – Endfeier',
-          date: '04 05 2024',
-          details: 'Die Preisverteilung für die Saison 23/24, Königschießen und Endschießen findet in geselliger Runde ab 18:30 Uhr beim Alten Wirt statt.',
-        },
-        {
-          title: '16.06.2024 – Vereinsjahrtag',
-          date: '06 16 2024',
-          details: 'Umzug und Gottesdienst für die Vereine, alle Vereinsmitglieder sind herzlich willkommen teilzunehmen.',
-        },
-        {
-          title: '13.07.2024 – Bierfest abgesagt',
-          date: '07 13 2024',
-          details: 'Das Bierfest wurde dieses jahr wegen dem aktuell schlechten Wetter abgesagt.',
-        },
-        {
           title: '11.10.2024 – Jahreshauptversammlung',
           date: '10 11 2024',
           details: 'Ab 19:30 Uhr findet die Jahreshauptversammlung statt, wie gewohnt beim Alten Wirt in Pfraundorf.',
+        },
+        {
+          title: '13.10.2024 ab 10 Uhr – Eröffnung der neuen elektronischen Schießstände mit Weißwurstfrühstück',
+          date: '10 13 2024',
+          details: 'Die Schützengilde "Hubertus" Pfraundorf e.V. lädt alle interessierten Raublinger Bürger am So. 13.10.2024 ab 10 Uhr zur Eröffnung der neuen elektronischen Schießstände im Schützenhaus Pfraundorf in der Hoppenbichlstraße 3 (rechts neben dem Haus der Vereine) ein. Es besteht die Möglichkeit den neuen Schießstand selber auszuprobieren, auch Kinder ab 7 Jahre dürfen sich gerne mit dem Lichtgewehr versuchen. Auch für das leibliche Wohl ist mit Würstel und Getränken gesorgt. Über zahlreiches Erscheinen freut sich die Vorstandschaft.',
+        },
+        {
+          title: '18.10.2024 – Anfangsschießen',
+          date: '10 18 2024',
+          details: 'Schießbeginn der neuen Saison (2024/25)',
         },
       ],
     };
