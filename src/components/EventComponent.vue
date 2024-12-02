@@ -52,6 +52,56 @@ export default {
           date: '10 18 2024',
           details: 'Schießbeginn der neuen Saison (2024/25)',
         },
+        {
+          title: '06.12.2024 – Nikolausschießen',
+          date: '12 06 2024',
+          details: 'Ausgeschossen wird eine Nikolausscheibe, mit anschließender Brotzeit im Schützenhaus. Nur für Vereinsmitglieder.',
+        },
+        {
+          title: '28.02.2025 – Faschingsschießen',
+          date: '02 25 2025',
+          details: 'Ausgeschossen wird eine Faschingsscheibe, mit anschließendem Kesselfleisch-Essen im Schützenhaus. Nur für Vereinsmitglieder.',
+        },
+        {
+          title: '15. - 20.03.2025 – Dorfkönigschießen',
+          date: '03 20 2025',
+          details: 'Wir laden wieder alle Raublinger Bürger, Vereine und Firmen herzlich zum Dorfkönigschießen ein.',
+        },
+        {
+          title: '28.03.2025 – Königsschießen',
+          date: '03 28 2025',
+          details: 'Vorletzter Schießabend. Ausgeschossen wir die Königskette.',
+        },
+        {
+          title: '29.03.2025 – Preisverteilung Dorfkönigschießen',
+          date: '03 29 2025',
+          details: 'Die Preisverteilung findet wieder in der Fahrzeughalle der Freiwilligen Feuerwehr Pfraundorf statt.',
+        },
+        {
+          title: '04.04.2025 – Endschießen',
+          date: '04 04 2025',
+          details: 'Letzter Schießabend. Ausgeschossen werden Fleischpreise sowie der Wanderpokal. Nur für Vereinsmitglieder.',
+        },
+        {
+          title: '11.04.2025 – Endfeier',
+          date: '04 11 2025',
+          details: 'Endfeier mit Preisverteilung des Schützenkönigs, Wanderpokal und Jahreswertung. Ab 18:30 Uhr beim Alten Wirt in Pfraundorf.',
+        },
+        {
+          title: '15.06.2025 – Vereinsjahrtag',
+          date: '06 15 2025',
+          details: '',
+        },
+        {
+          title: '12.07.2025 – Bierfest',
+          date: '07 12 2025',
+          details: 'Voraussichtlicher Termin für das Bierfest 2025.',
+        },
+        {
+          title: '10.10.2025 – Jahreshauptversammlung',
+          date: '10 10 2025',
+          details: 'Die Jahrehauptversammlung findet ab 19:30 Uhr beim Alten statt.',
+        },
       ],
     };
   },
