@@ -128,6 +128,12 @@ export default {
           positions: [''],
           loading: 'lazy',
         },
+        {
+          name: 'Angelika Berger',
+          image: 'chairman/angelika-berger.webp',
+          positions: [''],
+          loading: 'lazy',
+        },
       ],
     };
   },

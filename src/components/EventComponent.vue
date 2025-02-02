@@ -4,7 +4,6 @@
     <div class="event-cards">
       <ContentCard v-for="(event, index) in getCurrentThreeEvents" :key="index">
         <p class="event-title h3">{{ event.title }}</p>
-        <p class="event-date">{{ dateConverted(event.date) }}</p>
         <p class="event-details">{{ event.details }}</p>
       </ContentCard>
     </div>
@@ -17,7 +16,6 @@
         <p class="popup-title">Alle Termine</p>
         <ContentCard v-for="(event, index) in getCurrentEvents()" :key="index">
         <p class="event-title h3">{{ event.title }}</p>
-        <p class="event-date">{{ dateConverted(event.date) }}</p>
         <p class="event-details">{{ event.details }}</p>
       </ContentCard>
       </div>
@@ -59,7 +57,7 @@ export default {
         },
         {
           title: '28.02.2025 – Faschingsschießen',
-          date: '02 25 2025',
+          date: '02 28 2025',
           details: 'Ausgeschossen wird eine Faschingsscheibe, mit anschließendem Kesselfleisch-Essen im Schützenhaus. Nur für Vereinsmitglieder.',
         },
         {
