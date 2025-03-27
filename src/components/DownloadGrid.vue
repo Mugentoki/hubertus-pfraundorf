@@ -89,6 +89,41 @@ export default {
       ],
       dorkoenigDownloadCategories: [
         {
+          title: 'Dorfkönig 2025',
+          downloads: [
+            {
+              title: 'Dorfkönig',
+              icon: 'pdf',
+              link: '/files/2025/14-dorfkoenig-2025.pdf',
+              available: 1743276600,
+            },
+            {
+              title: 'Mannschaft Ring',
+              icon: 'pdf',
+              link: '/files/2025/14-dorfkoenig-mannschaftswertung-2025.pdf',
+              available: 1743276600,
+            },
+            {
+              title: 'Mannschaft Meistbeteiligung',
+              icon: 'pdf',
+              link: '/files/2025/14-dorfkoenig-mannschaft-meistbeteiligung-2025.pdf',
+              available: 1743276600,
+            },
+            {
+              title: 'Einzelwertung Luftgewehr',
+              icon: 'pdf',
+              link: '/files/2025/14-dorfkoenig-einzelwertung-luftgewehr-2025.pdf',
+              available: 1743276600,
+            },
+            {
+              title: 'Einzelwertung Lichtgewehr',
+              icon: 'pdf',
+              link: '/files/2025/14-dorfkoenig-einzelwertung-lichtgewehr-2025.pdf',
+              available: 1743276600,
+            },
+          ],
+        },
+        {
           title: 'Dorfkönig 2024',
           downloads: [
             {
