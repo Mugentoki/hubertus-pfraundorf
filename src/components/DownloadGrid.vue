@@ -1,7 +1,7 @@
 <template>
   <div class="component-download">
-    <h2>Ergebnisse Jahreswertung</h2>
-    <div v-for="(category, categoryIndex) in hubertusDownloadCategories"
+    <h2>Raublinger Dorfkönig</h2>
+    <div v-for="(category, categoryIndex) in dorkoenigDownloadCategories"
       :key="categoryIndex"
       class="download-category">
       <p class="h3">{{ category.title }}</p>
@@ -17,8 +17,8 @@
       </a>
       </div>
     </div>
-    <h2>Raublinger Dorfkönig</h2>
-    <div v-for="(category, categoryIndex) in dorkoenigDownloadCategories"
+    <h2>Ergebnisse Jahreswertung</h2>
+    <div v-for="(category, categoryIndex) in hubertusDownloadCategories"
       :key="categoryIndex"
       class="download-category">
       <p class="h3">{{ category.title }}</p>
@@ -45,6 +45,65 @@ export default {
   data() {
     return {
       hubertusDownloadCategories: [
+        {
+          title: 'Saison 2024 / 25',
+          downloads: [
+            {
+              title: 'Jugendklasse',
+              icon: 'pdf',
+              link: '/files/saison/202425/jugend-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Damenklasse',
+              icon: 'pdf',
+              link: '/files/saison/202425/damenklasse-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Schützenklasse',
+              icon: 'pdf',
+              link: '/files/saison/202425/schuetzenklasse-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Aufgelegt Damen',
+              icon: 'pdf',
+              link: '/files/saison/202425/damen-aufgelegt-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Aufgelegt Männer',
+              icon: 'pdf',
+              link: '/files/saison/202425/herren-aufgelegt-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Schützenkönige, Wanderpokale, Scheibe',
+              icon: 'pdf',
+              link: '/files/saison/202425/koenige-scheibe-wanderpokale-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Beste Teiler',
+              icon: 'pdf',
+              link: '/files/saison/202425/beste-teiler-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Endschießen Jugend',
+              icon: 'pdf',
+              link: '/files/saison/202425/endschiessen-jugend-2024-25.pdf',
+              available: 1710014400,
+            },
+            {
+              title: 'Endschießen Erwachsene',
+              icon: 'pdf',
+              link: '/files/saison/202425/endschiessen-erwachsene-2024-25.pdf',
+              available: 1710014400,
+            },
+          ],
+        },
         {
           title: 'Saison 2023 / 24',
           downloads: [
@@ -75,7 +134,7 @@ export default {
             {
               title: 'Schützenkönig, Wanderpokal, Scheibe',
               icon: 'pdf',
-              link: '/files/saison/202324/schuetzenkoenig-wanderpokal-scheibe-2023-24.pdf',
+              link: '/files/saison/202324/schuetzenkoenig-wanderpokal-scheibe.pdf',
               available: 1710014400,
             },
             {
