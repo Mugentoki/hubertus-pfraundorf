@@ -86,8 +86,8 @@ export default {
           details: 'Endfeier mit Preisverteilung des Schützenkönigs, Wanderpokal und Jahreswertung. Ab 18:30 Uhr beim Alten Wirt in Pfraundorf.',
         },
         {
-          title: '15.06.2025 – Vereinsjahrtag',
-          date: '06 15 2025',
+          title: '22.06.2025 – Vereinsjahrtag',
+          date: '06 22 2025',
           details: '',
         },
         {
