@@ -91,11 +91,6 @@ export default {
           details: '',
         },
         {
-          title: '12.07.2025 – Bierfest',
-          date: '07 12 2025',
-          details: 'Voraussichtlicher Termin für das Bierfest 2025.',
-        },
-        {
           title: '10.10.2025 – Jahreshauptversammlung',
           date: '10 10 2025',
           details: 'Die Jahrehauptversammlung findet ab 19:30 Uhr beim Alten statt.',
