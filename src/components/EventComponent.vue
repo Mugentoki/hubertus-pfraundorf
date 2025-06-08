@@ -86,9 +86,24 @@ export default {
           details: 'Endfeier mit Preisverteilung des Schützenkönigs, Wanderpokal und Jahreswertung. Ab 18:30 Uhr beim Alten Wirt in Pfraundorf.',
         },
         {
+          title: '19.06.2025 – Fronleichnam',
+          date: '06 19 2025',
+          details: 'Beteiligung an der Fronleichnamsprozession mit Fahnenabordnung und Vereinsmitgliedern. Treffpunkt ist um 8:15 Uhr am Schützenhaus in Pfraundorf.',
+        },
+        {
           title: '22.06.2025 – Vereinsjahrtag',
           date: '06 22 2025',
-          details: '',
+          details: 'Vereinsjahrtag mit Gottesdienst und Umzug mit Fahnenabordnung und Vereinsmitgliedern. Treffpunkt ist um 8:15 Uhr am Schützenhaus in Pfraundorf.',
+        },
+        {
+          title: '26.06.2025 – Preisverteilung - Jubiläumsschießen Schützengesellschaft Wasen Happing e.V.',
+          date: '06 26 2025',
+          details: 'Beginn ab 19 Uhr im Happinger Festzelt.',
+        },
+        {
+          title: '29.06.2025 – Festsonntag - Schützengesellschaft Wasen Happing e.V.',
+          date: '06 29 2025',
+          details: 'Treffpunkt ist um 8:15 Uhr am Schützenhaus in Pfraundorf. Aufstellung zum Festzug in Happing um 9:30 Uhr.',
         },
         {
           title: '10.10.2025 – Jahreshauptversammlung',
